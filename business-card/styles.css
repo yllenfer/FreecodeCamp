@@ -1,0 +1,65 @@
+body {
+  background-color: rosybrown;
+  font-family: Arial, sans-serif;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.business-card {
+  width: 300px;
+  background-color: #f4f3ef;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+  position: relative;
+  z-index: 1;
+}
+h1 {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+hr {
+  border: 1px dashed slategray;
+}
+
+.full-name {
+  font-family: Impact;
+  font-size: 20px;
+}
+
+.back-color {
+  width: 300px;
+  height: auto;
+  background-color: #e0e0e0;
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  z-index: -1;
+}
