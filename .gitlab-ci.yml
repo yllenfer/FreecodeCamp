@@ -2,7 +2,7 @@ pages:
   stage: deploy
   script:
     - echo "Deploying to GitLab Pages"
-  FreeCodeCamp:
+  artifacts:
     paths:
       - public
   only:
