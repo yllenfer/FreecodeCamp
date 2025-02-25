@@ -1,9 +1,11 @@
+image: alpine:latest
+
 pages:
   stage: deploy
   script:
-    - echo "Deploying to GitLab Pages"
+    - echo "Deploying static website"
   artifacts:
     paths:
-      - business-card  # Point to the "business-card" folder
+      - business-card
   only:
     - main
