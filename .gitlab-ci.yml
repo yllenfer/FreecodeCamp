@@ -7,6 +7,6 @@ pages:
   artifacts:
     paths:
       - business-card
-  publish: business-card 
+  publish: business-card  # Specify the folder to use for Pages
   only:
     - main
