@@ -4,6 +4,6 @@ pages:
     - echo "Deploying to GitLab Pages"
   artifacts:
     paths:
-      - public
+      - business-card  # Point to the "business-card" folder
   only:
     - main
