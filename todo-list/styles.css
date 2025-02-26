@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+   
+  }
+  
+  .todo-list {
+    font-size: 20px;
+    list-style-type: none;
+    margin-left: 20%;
+  }
+  
+  .sub-item-link {
+    text-decoration: none;
+    color: #83c5be;
+  }
+  
+  a:visited {
+    color: #edf6f9;
+  }
+  
+  a:hover {
+    color: #006d77;
+  }
+  
+  a:focus {
+    outline: dashed #83c5be;
+  }
+  
+  a:active {
+    color: #006d77;
+  }
+  
+  .card {
+    background-color: #e29578;
+    border-radius: 12px;
+    display: block; 
+    padding: 16px;
+    max-width: 400px; 
+    margin: 0 auto; 
+    color: #006d77; 
+    margin-top: 10%;
+  }
