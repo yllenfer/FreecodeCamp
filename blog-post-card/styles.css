@@ -1,0 +1,46 @@
+.blog-post-card {
+    background-color: white;
+    border-radius: 12px;
+    width: 500px;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 10%;
+  }
+  
+  .post-img {
+    width: 100%;      
+    height: auto;     
+    border-bottom: 10px solid #000;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .post-content {
+    padding: 10px;
+  }
+  
+  
+  .post-title, .post-excerpt {
+    margin: 20px;
+    color: #b38406;
+    font-family: Tahoma;
+  }
+  
+  .read-more {
+    display: inline-block; 
+    color: #F2CC05;
+    text-decoration: none; 
+    transition: color 0.3s ease;
+    width: 30%;
+    height: 10%;
+    background-color: #3E3625;
+    margin: 2%;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 8%;
+  }
+  
+  .read-more:hover {
+    text-decoration: underline; 
+    background-color: #735C27;
+  }
