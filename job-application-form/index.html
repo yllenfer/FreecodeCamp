@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" />
+    <title>Job Application Form</title>
+  </head>
+  <body>
+    <h1>Apply to the best jobs ever</h1>
+    <div class="container">
+      <form>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" for="name" /><br />
+        <label for="email">Email</label>
+        <input type="email" id="email" for="email" /><br />
+        <label for="position">Position</label>
+        <select id="position">
+          <option>Front End Developer</option>
+          <option>Backend End Developer</option>
+          <option>Site Reliability</option>
+          <option>Engineer Manager</option>
+          <option>Cloud Engineer</option>
+        </select>
+        <br />
+        <fieldset class="radio-group">
+          <label>
+            <input type="radio" name="availability" value="available" checked />
+            Available
+          </label>
+          <label>
+            <input type="radio" name="availability" value="unavailable" />
+            Unavailable
+          </label>
+          <label>
+            <input type="radio" name="availability" value="maybe" /> Maybe
+          </label>
+        </fieldset>
+
+        <label>We'd love to hear from you!</label>
+        <textarea id="message"></textarea>
+        <br />
+        <button type="submit">Send!</button>
+      </form>
+    </div>
+  </body>
+</html>

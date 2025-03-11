@@ -1,0 +1,78 @@
+body {
+  background-color: #fdf0d5;
+  padding: 4%;
+}
+
+h1 {
+  color: #003049;
+  font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+  text-align: center;
+}
+
+input:not([name="availability"]) {
+  font-size: 22px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#position {
+  display: grid;
+  width: 100%;
+  padding: 1%;
+}
+
+fieldset {
+  margin-bottom: 4%;
+}
+
+#message {
+  display: block;
+  margin-top: 2%;
+  width: 100%;
+}
+
+input:invalid,
+select:invalid,
+textarea:invalid {
+  border: 2px solid red;
+}
+
+input:valid,
+select:valid,
+textarea:valid {
+  border: 2px solid green;
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  background-color: #003049;
+  color: white;
+  font-size: 22px;
+}
+
+button:hover {
+  background-color: #669bbc;
+}
+
+input:focus,
+textarea:focus {
+  border: 2px solid #c1121f;
+}
+
+.radio-group input[type="radio"]:checked {
+  border: 2px solid #780000;
+  background-color: #669bbc;
+  box-shadow: 0 0 10px #780000;
+  color: red;
+}
+
+.radio-group label:has(input[type="radio"]:checked) {
+  color: #669bbc;
+  font-weight: bold;
+}
+
+input:nth-child(1) {
+  border-radius: 20px;
+}
